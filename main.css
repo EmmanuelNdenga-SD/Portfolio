@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#081b29 ;
+}
+.header{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 20px ;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+.navbar a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: 2s;
+}
+.navbar a:hover{
+    color: red;
+}
+.HOME{
+   display: flex;
+   align-items: center;
+   padding: 0 5%;
+   color: white;
+   height: 100vh;
+   font-size: medium;
+}
+.span1{
+    color: orange;
+}
+.home-content{
+    
+    max-width: 800px;
+
+}
+.home-content h1{
+    font-weight: 60px;
+    font-size: 500;
+    display: flex;
+   margin: 5px;
+
+}
+.home-content h2{
+    font-size: 40px;
+    font-weight: 400;
+;
+}
+.home-content p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px ;
+}
+
+.buttons a{
+    width: 200px;
+    height: 100%;
+    color: black;
+    display: inline-flex;
+    text-decoration: none ;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    background-color:wheat;
+    align-items: center;
+    
+
+}
+.buttons a:hover{
+    background-color: blue;
+}
+.icons{
+    position: absolute;
+    background: transparent;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons a{
+    display: inline-flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid wheat;
+    border-radius: 50%;
+    font-size: 30px;
+    text-decoration: none;
+}
+.image{
+    width: 40%;
+    height: 93%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    background: #081b29;
+    
+}
+.pic1{
+    position: absolute;
+    height: 100%;
+    left: 40%;
+    border-radius: 50px;
+    align-items: center;
+    background: #081b29;
+    display: flex;
+
+
+
+}
