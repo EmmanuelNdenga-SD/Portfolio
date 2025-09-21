@@ -3,43 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emmanuel - Developer</title>
     <link rel="stylesheet" href="main.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="header">
-    <a href="#" class="logo">Emmanuel</a>
-    <nav class="navbar">
-        <a href="#" class="active">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">SERVICES</a>
-        <a href="#">PORTFOLIO</a>
-        <a href="#">CONTACT</a>
-    </nav>
+        <a href="#" class="logo">Emmanuel</a>
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
     </header>
-    <section class="HOME">
+
+    <section class="home" id="home">
         <div class="home-content">
-            <h1>Hey My name is Emmanuel Ndenga</h1>
-            <h2>a Fullstack Developer</h2>
-            <p>I learned my coding skills at <span class="span1">Moringa School</span>An intensive software engineering program designed to launch your career in tech. Master Front-End and Back-End technologies to become a full-stack developer</p>
+            <h1>Hey, I'm Emmanuel Ndenga</h1>
+            <h2>Backend Developer in Training</h2>
+            <p>I'm passionate about backend development and working towards becoming a fullstack developer. I love building things that work behind the scenes!</p>
+            
             <div class="buttons">
-                <a href="#">Hire Me </a>
-                <a href="#">Message Me</a>
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Message Me</a>
             </div>
-            <div>
+            
+            <div class="social-section">
+                <h3>Connect with me:</h3>
                 <div class="icons">
-                    <a href=""><i class='bx bxl-facebook'></i></a>
-                    <a href="https://github.com/EmmanuelNdenga-SD"><i class='bx bxl-github'></i></a>
-                    <a href="https://www.linkedin.com/in/emmanuel-ndenga-9232a0221/"><i class='bx bxl-linkedin'></i></a>
-                </div>
-                <div class="image">
-                    <img src="black dude.jpg" class="pic1">
+                    <a href="https://www.linkedin.com/in/emmanuel-ndenga-9232a0221/" class="social-link linkedin">
+                        <i class='bx bxl-linkedin'></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/EmmanuelNdenga-SD" class="social-link github">
+                        <i class='bx bxl-github'></i>
+                        <span>GitHub</span>
+                    </a>
+                   
                 </div>
             </div>
         </div>
-
+        
+        <div class="home-image">
+            <div class="image-placeholder">
+                <i class='bx bx-code-alt'></i>
+            </div>
+        </div>
     </section>
-    
+
+    <section class="about" id="about">
+        <h2 class="section-title">My Journey</h2>
+        
+        <div class="about-content">
+            <div class="education">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>Railway Training Institute</h4>
+                    <p>Attained a Diploma in [Your Field]</p>
+                </div>
+                <div class="education-item">
+                    <h4>Moringa School</h4>
+                    <p>Software Engineering Program</p>
+                    <p>An intensive program designed to launch careers in tech by mastering both Front-End and Back-End technologies.</p>
+                </div>
+            </div>
+            
+            <div class="passion">
+                <h3>My Passion</h3>
+                <p>I'm really passionate about backend development - creating the logic, databases, and server-side functionality that makes applications work. I enjoy solving complex problems and building efficient systems.</p>
+                <p>My goal is to first establish myself as a solid backend developer, then expand my skills to become a fullstack developer who can handle both client and server sides of applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="section-title">What I've Learned</h2>
+        
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Technologies at Moringa</h3>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <i class='bx bxl-html5'></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-css3'></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-javascript'></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-react'></i>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-python'></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bx-data'></i>
+                        <span>Flask</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>My Focus Areas</h3>
+                <ul class="focus-list">
+                    <li>Backend development with Python</li>
+                    <li>Database design and management</li>
+                    <li>API development and integration</li>
+                    <li>Server configuration and deployment</li>
+                    <li>Problem-solving and algorithm design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <div class="contact-content">
+            <p>If you'd like to chat about backend development, potential projects, or just want to connect, feel free to reach out!</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class='bx bx-envelope'></i>
+                    <span>emmanuelstenoh1@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bx-phone'></i>
+                    <span>+254 702 799 589</span>
+                    <span>+254 791 629 551</span>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bx-map'></i>
+                    <span>Nairobi, Kenya</span>
+                </div>
+            </div>
+            
+            <div class="social-connect">
+                <h3>Or find me on:</h3>
+                <div class="social-buttons">
+                    <a href="https://www.linkedin.com/in/emmanuel-ndenga-9232a0221/" class="social-btn linkedin-btn">
+                        <i class='bx bxl-linkedin'></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/EmmanuelNdenga-SD" class="social-btn github-btn">
+                        <i class='bx bxl-github'></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Emmanuel Ndenga. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/EmmanuelNdenga-SD"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/emmanuel-ndenga-9232a0221/"><i class='bx bxl-linkedin'></i></a>
+                
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
